@@ -1,0 +1,14 @@
+body {
+	font-family: geneva, verdana, tahoma, helvetica, arial, sans-serif;
+	color: rgb(69, 66, 53);
+	background-color: rgb(211, 210, 193);
+}
+
+p {
+	font-family: georgia, times, "Times New Roman", serif;
+}
+
+h1 {
+	color: rgb(103, 78, 19);
+	background-color: rgb(211, 210, 193);
+}
