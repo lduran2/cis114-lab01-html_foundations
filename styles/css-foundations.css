@@ -19,7 +19,9 @@ header + p, .figure p {
 	text-indent: 0;
 }
 
-.figure {
+.figure p {
+	font-size: 0.875rem;
+	font-style: italic;
 	text-align: center;
 }
 
