@@ -1,3 +1,13 @@
+html {
+	font-size: 100%;
+}
+
+/* give the page body some shape */
+body {
+	max-width: 45em;
+	margin: 16px auto;
+}
+
 p {
 	margin: 0;
 	line-height: 2.0;
@@ -33,4 +43,32 @@ em {
 /* tables need an extra margin */
 table {
 	margin: 2em 0;
+}
+
+/* making the navigation list items stand out */
+nav ul {
+	background: rgb(242, 224, 183);
+	float: left;
+	width: 100%;
+	margin: 2em 0;
+	border: 1px;
+	border-style: solid none;
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	float: left;
+	width: 33.3%;
+	margin: 0 0 0 -1px;
+	border-left: 1px solid;
+}
+nav a {
+	display: block;
+	width: 100%;
+	padding: 2em 13.3%;
+}
+
+.figure, header {
+	clear: both;
 }
