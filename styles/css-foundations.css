@@ -1,0 +1,36 @@
+p {
+	margin: 0;
+	line-height: 2.0;
+	text-indent: 4em;
+}
+
+/* do not indent paragraphs in figures or directly after headers */
+header + p, .figure p {
+	text-indent: 0;
+}
+
+.figure {
+	text-align: center;
+}
+
+/* make a simplified drop cap at the beginning */
+header + p::first-letter {
+	font-size: 5em;
+	font-style: italic;
+	line-height: 1;
+	margin: 0 0.1em 0.1em 0;
+}
+
+/* add a little extra emphasis */
+strong {
+	font-variant: small-caps;
+}
+
+em {
+	font-weight: bold;
+}
+
+/* tables need an extra margin */
+table {
+	margin: 2em 0;
+}
