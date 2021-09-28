@@ -50,13 +50,14 @@ table {
 
 /* making the navigation list items stand out */
 nav ul {
-	background: rgb(242, 224, 183);
 	float: left;
 	width: 100%;
 	margin: 0 0 2em;
 	border: 1px;
 	border-style: solid none;
 	padding: 0;
+	color: rgb(69, 66, 53);
+	background-color: rgb(242, 224, 183);
 	list-style: none;
 	list-style-image: none;
 }
@@ -72,7 +73,7 @@ nav li {
 
 nav a {
 	display: block;
-	width: 100%;
+	width: 73.4%;
 	padding: 1em 13.3%;
 }
 
@@ -115,8 +116,43 @@ h2 {
 	margin: 0.45em 0;
 	padding-left: 3.33em;
 	color: rgb(211, 210, 193);
-	background: rgb(69, 66, 53);
+	background-color: rgb(69, 66, 53);
 	font-size: 1.5em;
 	line-height: 2;
 	font-style: italic;
+}
+
+/* the aside */
+
+aside {
+	margin: 2em 10%;
+	border: 1em;
+	border-style: dotted none;
+	color: rgb(69, 66, 53);
+	background-color: rgb(211, 192, 210);
+}
+
+aside h2 {
+	padding-left: 0;
+	color: rgb(69, 66, 53);
+	background-color: rgb(211, 192, 210);
+	text-align: center;
+}
+
+/* tables */
+
+table {
+	border: 3px;
+	border-style: solid none;
+	border-collapse: collapse;
+}
+
+thead, tbody {
+	border: 1px;
+	border-style: solid none;
+}
+
+th, td {
+	padding: 0 1em;
+	text-align: left;
 }
