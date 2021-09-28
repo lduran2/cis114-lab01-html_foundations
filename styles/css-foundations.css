@@ -1,0 +1,160 @@
+html {
+	font-size: 100%;
+}
+
+/* give the page body some shape */
+body {
+	max-width: 45em;
+	margin: 16px auto;
+	border: 1em solid;
+}
+
+p {
+	margin: 0 2.22%;
+	line-height: 2.0;
+	text-indent: 4em;
+}
+
+/* do not indent paragraphs in figures or directly after headers */
+header + p, .figure p {
+	text-indent: 0;
+}
+
+.figure p, caption {
+	font-style: italic;
+	font-size: 0.875rem;
+	line-height: 2.0;
+	text-align: center;
+}
+
+/* make a simplified drop cap at the beginning */
+header + p::first-letter {
+	font-style: italic;
+	font-size: 5em;
+	line-height: 1;
+	margin: 0 0.1em 0.1em 0;
+}
+
+/* add a little extra emphasis */
+strong {
+	font-variant: small-caps;
+}
+
+em {
+	font-weight: bold;
+}
+
+table {
+	/* tables need an extra margin */
+	margin: 2em auto;
+}
+
+/* making the navigation list items stand out */
+nav ul {
+	float: left;
+	width: 100%;
+	margin: 0 0 2em;
+	border: 1px;
+	border-style: solid none;
+	padding: 0;
+	color: rgb(69, 66, 53);
+	background-color: rgb(242, 224, 183);
+	list-style: none;
+	list-style-image: none;
+}
+
+nav li {
+	float: left;
+	width: 33.3%;
+	margin: 0 0 0 -1px;
+	border-left: 1px solid;
+	background-repeat: no-repeat;
+	background-position: 3.325% 50%;
+}
+
+nav a {
+	display: block;
+	width: 73.4%;
+	padding: 1em 13.3%;
+}
+
+#nav-ferns {
+	background-image: url('../images/fern-sprite.png');
+}
+
+#nav-flowers {
+	background-image: url('../images/flowers-sprite.png');
+}
+
+#nav-mosses {
+	background-image: url('../images/moss-sprite.png');
+}
+
+.figure, header {
+	clear: both;
+}
+
+section:nth-of-type(2n-1) ul li:nth-of-type(3n-2), section:nth-of-type(2n) ul li:nth-of-type(3n) {
+	list-style-image: url('../images/fern-sprite.png');
+}
+
+section:nth-of-type(2n-1) ul li:nth-of-type(3n-1), section:nth-of-type(2n) ul li:nth-of-type(3n-2) {
+	list-style-image: url('../images/flowers-sprite.png');
+}
+
+section:nth-of-type(2n-1) ul li:nth-of-type(3n), section:nth-of-type(2n) ul li:nth-of-type(3n-1) {
+	list-style-image: url('../images/moss-sprite.png');
+}
+
+/* headings */
+
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h2 {
+	margin: 0.45em 0;
+	padding-left: 3.33em;
+	color: rgb(211, 210, 193);
+	background-color: rgb(69, 66, 53);
+	font-style: italic;
+	font-size: 1.5em;
+	line-height: 2;
+}
+
+/* the aside */
+
+aside {
+	margin: 2em 10%;
+	border: 1em;
+	border-style: dotted none;
+	color: rgb(69, 66, 53);
+	background-color: rgb(211, 192, 210);
+}
+
+aside h2 {
+	padding-left: 0;
+	color: rgb(69, 66, 53);
+	background-color: rgb(211, 192, 210);
+	text-align: center;
+}
+
+/* tables */
+
+table {
+	border: 3px;
+	border-style: solid none;
+	border-collapse: collapse;
+	line-height: 1.6;
+}
+
+thead, tbody {
+	border: 1px;
+	border-style: solid none;
+}
+
+th, td {
+	padding: 0 1em;
+	text-align: left;
+}
