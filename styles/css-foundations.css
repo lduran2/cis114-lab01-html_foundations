@@ -21,15 +21,16 @@ header + p, .figure p {
 }
 
 .figure p, caption {
-	font-size: 0.875rem;
 	font-style: italic;
+	font-size: 0.875rem;
+	line-height: 2.0;
 	text-align: center;
 }
 
 /* make a simplified drop cap at the beginning */
 header + p::first-letter {
-	font-size: 5em;
 	font-style: italic;
+	font-size: 5em;
 	line-height: 1;
 	margin: 0 0.1em 0.1em 0;
 }
@@ -117,9 +118,9 @@ h2 {
 	padding-left: 3.33em;
 	color: rgb(211, 210, 193);
 	background-color: rgb(69, 66, 53);
+	font-style: italic;
 	font-size: 1.5em;
 	line-height: 2;
-	font-style: italic;
 }
 
 /* the aside */
