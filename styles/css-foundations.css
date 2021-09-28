@@ -146,6 +146,7 @@ table {
 	border: 3px;
 	border-style: solid none;
 	border-collapse: collapse;
+	line-height: 1.6;
 }
 
 thead, tbody {
